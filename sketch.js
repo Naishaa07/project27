@@ -43,18 +43,18 @@ function draw() {
   Engine.update(engine)
   //ground.display();
   
-  bob1.display();
-  bob2.display();
-  bob3.display();
-  bob4.display();
-  bob5.display();
+  
   roof1.display();
   rope3.display();
   rope2.display();
   rope1.display();
   rope4.display();
   rope5.display();
-  
+  bob1.display();
+  bob2.display();
+  bob3.display();
+  bob4.display();
+  bob5.display();
   strokeWeight(3)
   //line (bob3.body.position.x, bob3.body.position.y, roof1.body.position.x, roof1.body.position.y)
   //line (bob2.body.position.x, bob2.body.position.y, roof1.body.position.x-60, roof1.body.position.y)
